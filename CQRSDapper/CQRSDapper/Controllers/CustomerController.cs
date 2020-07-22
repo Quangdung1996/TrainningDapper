@@ -1,6 +1,4 @@
 ﻿using CQRSDapper.Common.Interfaces;
-using CQRSDapper.DAL.Interfaces;
-using CQRSDapper.Domain.Models;
 using CQRSDapper.Domain.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;

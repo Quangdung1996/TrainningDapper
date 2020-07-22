@@ -30,9 +30,9 @@ namespace CQRSDapper.Common.Services
             return await _customerRepository.GetAllAsync();
         }
 
-        public async Task<Customer> GetCustomerByCustomerCodeAsync(string CustomerCode)
+        public async Task<Customer> GetCustomerByCustomerCodeAsync(string customerCode)
         {
-            return await _customerRepository.GetByCustomerCodeAsync(CustomerCode);
+            return await _customerRepository.GetByCustomerCodeAsync(customerCode);
         }
 
         public async Task<ReturnResponse<CustomerMeta>> UpdateAsync(CustomerMeta customerMeta, string customerCode)
