@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CQRSDapper.Common.Interfaces;
 using CQRSDapper.Common.Services;
 using CQRSDapper.DAL.Interfaces;
 using CQRSDapper.DAL.Repository;
